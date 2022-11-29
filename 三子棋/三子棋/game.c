@@ -81,7 +81,7 @@ void ComputerMove(char board[ROW][COL], int row, int col)
 	while (1)
 	{
 		int x = rand() % row;
-		int y = rand() & col;
+		int y = rand() % col;
 		//≈–∂œ’º”√
 		if (board[x][y] == ' ')
 		{

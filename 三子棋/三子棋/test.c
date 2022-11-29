@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"game.h"
 
 void menu()
@@ -17,7 +16,7 @@ void game()
 	InitBoard(board, ROW, COL);
 	//打印一下棋盘 - 本质是打印数组的内容
 	DisplayBoard(board,ROW,COL);
-	char ret = 0;//获取游戏状态（1.玩家省
+	char ret = 0;//获取游戏状态
 	while (1)
 	{
 		//玩家下棋
