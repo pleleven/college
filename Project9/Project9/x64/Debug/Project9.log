@@ -1,0 +1,6 @@
+﻿  源.c
+C:\code\Github专用\college\Project9\Project9\源.c(135,6): warning C4101: “input”: 未引用的局部变量
+C:\code\Github专用\college\Project9\Project9\源.c(142,6): warning C4101: “output”: 未引用的局部变量
+C:\code\Github专用\college\Project9\Project9\源.c(151,2): warning C4013: “intput”未定义；假设外部返回 int
+源.obj : error LNK2019: 无法解析的外部符号 intput，函数 main 中引用了该符号
+C:\code\Github专用\college\Project9\x64\Debug\Project9.exe : fatal error LNK1120: 1 个无法解析的外部命令
